@@ -1,5 +1,7 @@
 <?php
 
+require "list.php";
+
 
 
 
