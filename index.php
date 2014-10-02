@@ -17,7 +17,7 @@
 				Number of Words
 				<select>
 					<?php for ($i=4; $i <= 9; $i++): ?>
-						<option value=""></option>
+						<option value="<?=$i?>"><?=$i?></option>
 					<?php endfor; ?>
 				</select>&#40;Max 9&#41;<br>
 				<input type="checkbox">Add a number&#63;<br>
