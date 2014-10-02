@@ -16,12 +16,9 @@
 			<ul class="questions">
 				Number of Words
 				<select>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
+					<?php for ($i=4; $i <= 9; $i++): ?>
+						<option value=""></option>
+					<?php endfor; ?>
 				</select>&#40;Max 9&#41;<br>
 				<input type="checkbox">Add a number&#63;<br>
 				<input type="checkbox">Add a symbol&#63;<br>
