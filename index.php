@@ -9,6 +9,8 @@
 <body>
 	<div class="title">
 		<h1>xkcd Password Generator</h1>
+		<p>Generate a xkcd password based on the selections below.</p>
+		<p>&#40;See the comic below for an example of a xkcd password&#41;</p>
 		<h2 class="pass">hello-to-the-whole-wide-world</h2>
 	</div>
 	<div>
