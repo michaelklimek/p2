@@ -5,7 +5,8 @@
 
 .pass {
 	width: 30%;
-	margin-left: 34%;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #0099FF;
 	color: red;
 	padding: 10px 10px 10px 10px;
@@ -14,5 +15,9 @@
 }
 
 .questions {
+	text-align: center;
+}
+
+.comic {
 	text-align: center;
 }
