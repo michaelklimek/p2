@@ -16,10 +16,15 @@ $symbols = Array(
 4 => '&#33;',
 );
 
+print_r($symbols);
+
 $number = "";
-for ($i=0; $i <= 9; $i++) { 
- 	$numbers = Array(
- 		$i => '$i',);
- } 
+for ($i=1; $i <=9; $i++) { 
+ 	$numbers = Array($i => $i,);
+ }
 
  print_r($numbers);
+
+ foreach($words as $key => $value) {
+ 	echo "<br>".$key." means ".$value;
+ }
