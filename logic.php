@@ -1,6 +1,8 @@
 <?php
 
-require "list.php";
+$password = '';
+
+$password = $_GET['words'];
 
 
 
