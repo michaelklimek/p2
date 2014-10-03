@@ -15,5 +15,5 @@ No login required.
 ##List of plugins, libraries, packages or outside code used in the project:
 * Password Strength Photo: http://imgs.xkcd.com/comics/password_strength.png/ This is the comic strip that is used on index.php for Project 2.
 * CSS-Tricks Button Maker: http://css-tricks.com/examples/ButtonMaker/#/ This CSS styled button was used for the submit button on the index.php file.
-* 4000 Most Common English Words: http://www.rupert.id.au/resources/1000-words.php/ This is the word list that the generator pulls from in the logic.php file.
+* 4000 Most Common English Words: http://www.rupert.id.au/resources/1000-words.php/ (Original Source: http://www.wordfrequency.info/). This is the word list that the generator pulls from in the logic.php file.
 
