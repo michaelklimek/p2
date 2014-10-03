@@ -17,7 +17,7 @@ error_reporting(0);
 		<p>Generate a xkcd password based on the selections below.</p>
 		<p>&#40;See the comic below for an example of a xkcd password&#41;</p>
 		<h2 class="pass"><?php for ($i=0; $i < $words; $i++): ?> 
-			<?php echo ' '.$wordslist[rand(0, 9)].$numbersliston[rand(0, 9)].$symbolsliston[rand(0,4)].' '; ?>
+			<?php echo ' '.$wordslist[rand(0, 4340)].$numbersliston[rand(0, 9)].$symbolsliston[rand(0,4)].' '; ?>
 		<?php endfor; ?></h2>
 	</div>
 	<div>
