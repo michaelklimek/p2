@@ -31,7 +31,7 @@ error_reporting(0);
 				</select>&#40;Max 9&#41;<br>
 				<input type="checkbox" name="numbers">Add numbers&#63;<br>
 				<input type="checkbox" name="symbols">Add symbols&#63;<br>
-				<input type="submit" value="Generate Password">
+				<input type="submit" class="button" value="Generate Password">
 			</ul>
 		</form>
 	</div>
