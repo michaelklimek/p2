@@ -1,7 +1,7 @@
 <?php
 
 //test words. later use require for dictionary file
-$words = Array(
+$wordslist = Array(
 0 => 'tree',
 1 => 'goat',
 2 => 'cow',
@@ -10,7 +10,7 @@ $words = Array(
 5 => 'dog',
 6 => 'cat',
 7 => 'bird',
-8 => 'fist',
+8 => 'fish',
 9 => 'mouse',
 );
 
