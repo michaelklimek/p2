@@ -1,3 +1,8 @@
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +18,7 @@
 		<p>Generate a xkcd password based on the selections below.</p>
 		<p>&#40;See the comic below for an example of a xkcd password&#41;</p>
 		<h2 class="pass"><?php for ($i=0; $i < $words; $i++): ?> 
-			<?php echo ' '.$wordslist[rand(0, 9)].' '; ?>
+			<?php echo ' '.$symbolsliston.$wordslist[rand(0, 9)].$numbersliston.' '; ?>
 		<?php endfor; ?></h2>
 	</div>
 	<div>
@@ -25,8 +30,8 @@
 						<option value="<?=$i?>"><?=$i?></option>
 					<?php endfor; ?>
 				</select>&#40;Max 9&#41;<br>
-				<input type="checkbox">Add a number&#63;<br>
-				<input type="checkbox">Add a symbol&#63;<br>
+				<input type="checkbox" name="numbers">Add a number&#63;<br>
+				<input type="checkbox" name="symbols">Add a symbol&#63;<br>
 				<input type="submit" value="Generate Password">
 			</ul>
 		</form>

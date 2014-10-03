@@ -15,7 +15,7 @@ $wordslist = Array(
 );
 
 //symbols to be used
-$symbols = Array(
+$symbolslist = Array(
 0 => '&amp;',
 1 => '&#63;',
 2 => '&#35;',
@@ -24,7 +24,7 @@ $symbols = Array(
 );
 
 //numbers to be used
-$numbers = Array(
+$numberslist = Array(
 0 => '0',
 1 => '1',
 2 => '2',
