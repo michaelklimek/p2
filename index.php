@@ -11,7 +11,9 @@
 		<h1>xkcd Password Generator</h1>
 		<p>Generate a xkcd password based on the selections below.</p>
 		<p>&#40;See the comic below for an example of a xkcd password&#41;</p>
-		<h2 class="pass"><?php echo $password; ?></h2>
+		<h2 class="pass"><?php for ($i = 0; $i < $words; $i++): ?> 
+			<?=$i?>
+		<?php endfor; ?></h2>
 	</div>
 	<div>
 		<form action="index.php" method="GET">

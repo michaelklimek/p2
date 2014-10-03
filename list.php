@@ -1,13 +1,20 @@
 <?php
 
+//test words. later use require for dictionary file
 $words = Array(
 0 => 'tree',
 1 => 'goat',
 2 => 'cow',
 3 => 'chicken',
 4 => 'horse',
+5 => 'dog',
+6 => 'cat',
+7 => 'bird',
+8 => 'fist',
+9 => 'mouse',
 );
 
+//symbols to be used
 $symbols = Array(
 0 => '&amp;',
 1 => '&#63;',
@@ -16,15 +23,28 @@ $symbols = Array(
 4 => '&#33;',
 );
 
-print_r($symbols);
+//numbers to be used
+$numbers = Array(
+0 => '0',
+1 => '1',
+2 => '2',
+3 => '3',
+4 => '4',
+5 => '5',
+6 => '6',
+7 => '7',
+8 => '8',
+9 => '9',
+);
 
-$number = "";
+//number test loop
+/*$number = "";
 for ($i=1; $i <=9; $i++) { 
  	$numbers = Array($i => $i,);
- }
+ } */
 
- print_r($numbers);
-
- foreach($words as $key => $value) {
+//loop to test $words array
+/* foreach($words as $key => $value) {
  	echo "<br>".$key." means ".$value;
  }
+ */
